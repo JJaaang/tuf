@@ -3,13 +3,26 @@
   {
    "keyid": "f6b6d4d0fd5771166b1be9187f16923867ebbbff1960fc92ab3f2321eee98f4e",
    "sig": ""
+  },
+  {
+   "keyid": "2b1a35a62e296595d8c27ba63a5c45dc63e1bab6aff72a26fc689f85e42aef4f",
+   "sig": ""
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2027-07-09T09:45:02Z",
+  "expires": "2027-07-09T09:47:23Z",
   "keys": {
+   "2b1a35a62e296595d8c27ba63a5c45dc63e1bab6aff72a26fc689f85e42aef4f": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "reanhye.jjang@gmail.com",
+     "issuer": "https://github.com/login/oauth"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-keyowner": "@jjaaang"
+   },
    "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27": {
     "keytype": "sigstore-oidc",
     "keyval": {
@@ -31,7 +44,9 @@
   },
   "roles": {
    "root": {
-    "keyids": [],
+    "keyids": [
+     "2b1a35a62e296595d8c27ba63a5c45dc63e1bab6aff72a26fc689f85e42aef4f"
+    ],
     "threshold": 2
    },
    "snapshot": {
