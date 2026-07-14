@@ -1,0 +1,49 @@
+{
+ "signatures": [],
+ "signed": {
+  "_type": "root",
+  "consistent_snapshot": true,
+  "expires": "2027-07-14T03:01:45Z",
+  "keys": {
+   "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "https://github.com/JJaaang/tuf/.github/workflows/online-sign.yml@refs/heads/main",
+     "issuer": "https://token.actions.githubusercontent.com"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-online-uri": "sigstore:"
+   }
+  },
+  "roles": {
+   "root": {
+    "keyids": [],
+    "threshold": 1
+   },
+   "snapshot": {
+    "keyids": [
+     "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 365,
+    "x-tuf-on-ci-signing-period": 60
+   },
+   "targets": {
+    "keyids": [],
+    "threshold": 1
+   },
+   "timestamp": {
+    "keyids": [
+     "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 2,
+    "x-tuf-on-ci-signing-period": 1
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1,
+  "x-tuf-on-ci-expiry-period": 365,
+  "x-tuf-on-ci-signing-period": 60
+ }
+}
