@@ -1,9 +1,14 @@
 {
- "signatures": [],
+ "signatures": [
+  {
+   "keyid": "f6b6d4d0fd5771166b1be9187f16923867ebbbff1960fc92ab3f2321eee98f4e",
+   "sig": ""
+  }
+ ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2027-07-14T03:01:45Z",
+  "expires": "2027-07-14T03:03:45Z",
   "keys": {
    "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27": {
     "keytype": "sigstore-oidc",
@@ -13,11 +18,22 @@
     },
     "scheme": "Fulcio",
     "x-tuf-on-ci-online-uri": "sigstore:"
+   },
+   "f6b6d4d0fd5771166b1be9187f16923867ebbbff1960fc92ab3f2321eee98f4e": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "reanhye.jjang@gmail.com",
+     "issuer": "https://github.com/login/oauth"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-keyowner": "@bob"
    }
   },
   "roles": {
    "root": {
-    "keyids": [],
+    "keyids": [
+     "f6b6d4d0fd5771166b1be9187f16923867ebbbff1960fc92ab3f2321eee98f4e"
+    ],
     "threshold": 1
    },
    "snapshot": {
@@ -29,7 +45,9 @@
     "x-tuf-on-ci-signing-period": 60
    },
    "targets": {
-    "keyids": [],
+    "keyids": [
+     "f6b6d4d0fd5771166b1be9187f16923867ebbbff1960fc92ab3f2321eee98f4e"
+    ],
     "threshold": 1
    },
    "timestamp": {
