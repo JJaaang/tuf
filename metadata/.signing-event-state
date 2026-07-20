@@ -1,0 +1,12 @@
+{
+  "invites": {
+    "@bob": [
+      "root",
+      "targets"
+    ],
+    "@alice": [
+      "root",
+      "targets"
+    ]
+  }
+}
