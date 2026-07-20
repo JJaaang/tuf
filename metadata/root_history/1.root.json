@@ -1,10 +1,23 @@
 {
- "signatures": [],
+ "signatures": [
+  {
+   "keyid": "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf",
+   "sig": ""
+  }
+ ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2027-07-20T03:06:55Z",
+  "expires": "2027-07-20T03:07:35Z",
   "keys": {
+   "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEGBRI40nByloN23E1ab6RdoDd6tLZ\nd33wnKeGHQv8trbTc/5xXAp58OaFLgs2w7KNp4xPWeL1yBH8zuVO4E/hBQ==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-tuf-on-ci-keyowner": "@alice"
+   },
    "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27": {
     "keytype": "sigstore-oidc",
     "keyval": {
@@ -17,7 +30,9 @@
   },
   "roles": {
    "root": {
-    "keyids": [],
+    "keyids": [
+     "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf"
+    ],
     "threshold": 1
    },
    "snapshot": {
@@ -29,7 +44,9 @@
     "x-tuf-on-ci-signing-period": 60
    },
    "targets": {
-    "keyids": [],
+    "keyids": [
+     "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf"
+    ],
     "threshold": 1
    },
    "timestamp": {

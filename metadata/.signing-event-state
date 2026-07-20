@@ -3,10 +3,6 @@
     "@bob": [
       "root",
       "targets"
-    ],
-    "@alice": [
-      "root",
-      "targets"
     ]
   }
 }
