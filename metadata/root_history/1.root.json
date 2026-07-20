@@ -3,13 +3,25 @@
   {
    "keyid": "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf",
    "sig": ""
+  },
+  {
+   "keyid": "107b674f5b05afa83594f03fa92124551630c6c37d111b0bdec5c3432045a92e",
+   "sig": "30460221009fb39d3f3e01209af5dcb9be7b7ad334d28478c64656991613e20845b6251110022100a4a49a0cf92c110db90159cb8e7b56e743c662c1863cb49ed294b1e52baf6d0d"
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2027-07-20T03:07:35Z",
+  "expires": "2027-07-20T03:13:28Z",
   "keys": {
+   "107b674f5b05afa83594f03fa92124551630c6c37d111b0bdec5c3432045a92e": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEthht5cALPclFqGvEwS0MGuLlHSaX\nmn6L6tJaf7x1CKeWMRXxSCtDQpggz1jml11X9vqXLeiTv7IrlSzfEk80zg==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-tuf-on-ci-keyowner": "@bob"
+   },
    "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf": {
     "keytype": "ecdsa",
     "keyval": {
@@ -31,7 +43,8 @@
   "roles": {
    "root": {
     "keyids": [
-     "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf"
+     "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf",
+     "107b674f5b05afa83594f03fa92124551630c6c37d111b0bdec5c3432045a92e"
     ],
     "threshold": 1
    },
@@ -45,7 +58,8 @@
    },
    "targets": {
     "keyids": [
-     "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf"
+     "b36513d68bac1963d5218f730b5ecf9d0772c8c34261033ed3cebdf313e0aadf",
+     "107b674f5b05afa83594f03fa92124551630c6c37d111b0bdec5c3432045a92e"
     ],
     "threshold": 1
    },
