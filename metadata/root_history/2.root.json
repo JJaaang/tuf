@@ -2,7 +2,7 @@
  "signatures": [
   {
    "keyid": "83916b6dbefcec498dd99b7569db38c0a317499cc1f46b41f712677dda375c0c",
-   "sig": ""
+   "sig": "3046022100d746d809464cfee9f69c44398c798fdb924feef25acd4fe8b4d2db59cd95851a022100d4ccdd7f737bbd20c85e28d46fb6477da68f9c3783d56f17ff99f65ee4e2d254"
   },
   {
    "keyid": "b8b2ebcf79393c51c14101b7fb355d7c55b9aae4ec29d0c6bf41d1360b52eec3",
@@ -11,13 +11,25 @@
   {
    "keyid": "d80b4716eb93d73b255b0494302bcf81ebac3356f953a2f14e8d3af5216879f0",
    "sig": ""
+  },
+  {
+   "keyid": "08ee4c621c65e9dc979ea1f32d5eba7d27323eca0e96726640b738c8fa645fae",
+   "sig": "304502203939ca3749abaa4c74ec124404886d8828f052ff05d4188a450df5746b1a24c20221009b664c2630cdbf14769b448e0642a3b6c321cced34796419b3b87c9696bb1671"
   }
  ],
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2027-07-29T23:45:21Z",
+  "expires": "2027-07-29T23:48:19Z",
   "keys": {
+   "08ee4c621c65e9dc979ea1f32d5eba7d27323eca0e96726640b738c8fa645fae": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENPiggdDDcZBBFE+p1EbX0R9z9PeS\nzeV4S/IeTngocXSgauX8zjxrM/EYGEpNwjaSsKxAYE2PAoCbYUTfWOw9BQ==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-tuf-on-ci-keyowner": "@bob"
+   },
    "d80b4716eb93d73b255b0494302bcf81ebac3356f953a2f14e8d3af5216879f0": {
     "keytype": "ecdsa",
     "keyval": {
@@ -39,7 +51,8 @@
   "roles": {
    "root": {
     "keyids": [
-     "d80b4716eb93d73b255b0494302bcf81ebac3356f953a2f14e8d3af5216879f0"
+     "d80b4716eb93d73b255b0494302bcf81ebac3356f953a2f14e8d3af5216879f0",
+     "08ee4c621c65e9dc979ea1f32d5eba7d27323eca0e96726640b738c8fa645fae"
     ],
     "threshold": 1
    },
@@ -53,7 +66,8 @@
    },
    "targets": {
     "keyids": [
-     "d80b4716eb93d73b255b0494302bcf81ebac3356f953a2f14e8d3af5216879f0"
+     "d80b4716eb93d73b255b0494302bcf81ebac3356f953a2f14e8d3af5216879f0",
+     "08ee4c621c65e9dc979ea1f32d5eba7d27323eca0e96726640b738c8fa645fae"
     ],
     "threshold": 1
    },
