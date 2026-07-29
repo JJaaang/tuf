@@ -16,24 +16,8 @@
  "signed": {
   "_type": "root",
   "consistent_snapshot": true,
-  "expires": "2027-07-29T23:37:00Z",
+  "expires": "2027-07-29T23:45:21Z",
   "keys": {
-   "83916b6dbefcec498dd99b7569db38c0a317499cc1f46b41f712677dda375c0c": {
-    "keytype": "ecdsa",
-    "keyval": {
-     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVJ+rJHlmbQMJ1ISPtRueW0EWI5sV\n9s1EbZM/BPgCkFbvfMZDCmbOOS3B0iTRP9SDUFwfSC8+v6pZfTZQ6DbUVA==\n-----END PUBLIC KEY-----\n"
-    },
-    "scheme": "ecdsa-sha2-nistp256",
-    "x-tuf-on-ci-keyowner": "@bob"
-   },
-   "b8b2ebcf79393c51c14101b7fb355d7c55b9aae4ec29d0c6bf41d1360b52eec3": {
-    "keytype": "ecdsa",
-    "keyval": {
-     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8+YD3Lmo5brp6c/zEh0xETLlslpj\nh6QskiCuhtN0GmtGun6jxOsjicVbGHrV9G5TZ9agtEoviWWCNf/AZr7H9w==\n-----END PUBLIC KEY-----\n"
-    },
-    "scheme": "ecdsa-sha2-nistp256",
-    "x-tuf-on-ci-keyowner": "@alice"
-   },
    "d80b4716eb93d73b255b0494302bcf81ebac3356f953a2f14e8d3af5216879f0": {
     "keytype": "ecdsa",
     "keyval": {
@@ -69,8 +53,7 @@
    },
    "targets": {
     "keyids": [
-     "83916b6dbefcec498dd99b7569db38c0a317499cc1f46b41f712677dda375c0c",
-     "b8b2ebcf79393c51c14101b7fb355d7c55b9aae4ec29d0c6bf41d1360b52eec3"
+     "d80b4716eb93d73b255b0494302bcf81ebac3356f953a2f14e8d3af5216879f0"
     ],
     "threshold": 1
    },
