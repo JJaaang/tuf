@@ -1,0 +1,80 @@
+{
+ "signatures": [
+  {
+   "keyid": "83916b6dbefcec498dd99b7569db38c0a317499cc1f46b41f712677dda375c0c",
+   "sig": "3045022100e77f35b781086d3efaca8024abdcc834604ef6696d600d42db5f3b491331696d02200dea231505ed799a7988ccd2388c9e9c23972ab7cd37cffae7ef49ae2a55dda9"
+  },
+  {
+   "keyid": "b8b2ebcf79393c51c14101b7fb355d7c55b9aae4ec29d0c6bf41d1360b52eec3",
+   "sig": "30440220419de8e232cc7817d8e5e8387b3e3b5b13b7beb496eb2332164a01853cd684fe02203c6524ed9da314d5b75cf1f4cc1a6223de1bbac81a5997992bb9ed4fa33a4c34"
+  }
+ ],
+ "signed": {
+  "_type": "root",
+  "consistent_snapshot": true,
+  "expires": "2027-07-29T07:30:56Z",
+  "keys": {
+   "83916b6dbefcec498dd99b7569db38c0a317499cc1f46b41f712677dda375c0c": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEVJ+rJHlmbQMJ1ISPtRueW0EWI5sV\n9s1EbZM/BPgCkFbvfMZDCmbOOS3B0iTRP9SDUFwfSC8+v6pZfTZQ6DbUVA==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-tuf-on-ci-keyowner": "@bob"
+   },
+   "b8b2ebcf79393c51c14101b7fb355d7c55b9aae4ec29d0c6bf41d1360b52eec3": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE8+YD3Lmo5brp6c/zEh0xETLlslpj\nh6QskiCuhtN0GmtGun6jxOsjicVbGHrV9G5TZ9agtEoviWWCNf/AZr7H9w==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-tuf-on-ci-keyowner": "@alice"
+   },
+   "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27": {
+    "keytype": "sigstore-oidc",
+    "keyval": {
+     "identity": "https://github.com/JJaaang/tuf/.github/workflows/online-sign.yml@refs/heads/main",
+     "issuer": "https://token.actions.githubusercontent.com"
+    },
+    "scheme": "Fulcio",
+    "x-tuf-on-ci-online-uri": "sigstore:"
+   }
+  },
+  "roles": {
+   "root": {
+    "keyids": [
+     "83916b6dbefcec498dd99b7569db38c0a317499cc1f46b41f712677dda375c0c",
+     "b8b2ebcf79393c51c14101b7fb355d7c55b9aae4ec29d0c6bf41d1360b52eec3"
+    ],
+    "threshold": 1
+   },
+   "snapshot": {
+    "keyids": [
+     "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 365,
+    "x-tuf-on-ci-signing-period": 60
+   },
+   "targets": {
+    "keyids": [
+     "83916b6dbefcec498dd99b7569db38c0a317499cc1f46b41f712677dda375c0c",
+     "b8b2ebcf79393c51c14101b7fb355d7c55b9aae4ec29d0c6bf41d1360b52eec3"
+    ],
+    "threshold": 1
+   },
+   "timestamp": {
+    "keyids": [
+     "e27749ed7177cda9e56c5d9adc437a0d94ce385c3c8243ab7c59bce684d50d27"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 2,
+    "x-tuf-on-ci-signing-period": 1
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1,
+  "x-tuf-on-ci-expiry-period": 365,
+  "x-tuf-on-ci-signing-period": 60
+ }
+}
